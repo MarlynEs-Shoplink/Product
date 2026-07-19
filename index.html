@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Featured Product</title>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Featured Product">
+<meta property="og:description" content="High-quality product at an affordable price.">
+<meta property="og:image" content="https://yourdomain.com/images/product1.jpg">
+<meta property="og:url" content="https://yourdomain.com/product1.html">
+<meta property="og:type" content="website">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f4f4;
+    color:#333;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+}
+
+.hero img{
+    width:100%;
+    display:block;
+    cursor:pointer;
+}
+
+.content{
+    padding:20px;
+}
+
+.content h1{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.content p{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.visit-btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:#d60000;
+    color:#fff;
+    padding:15px;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.visit-btn:hover{
+    background:#b40000;
+}
+
+.section-title{
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.product{
+    background:#fafafa;
+    border-radius:10px;
+    overflow:hidden;
+    text-decoration:none;
+    color:#333;
+    box-shadow:0 2px 6px rgba(0,0,0,.1);
+}
+
+.product img{
+    width:100%;
+    display:block;
+}
+
+.product p{
+    padding:10px;
+    font-size:14px;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:13px;
+}
+
+@media(max-width:600px){
+
+.content h1{
+    font-size:22px;
+}
+
+.products{
+    gap:10px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HERO IMAGE -->
+<div class="hero">
+<a href="https://shop.siomaiking.ph/your-shoplink" target="_blank">
+<img src="images/product1.jpg" alt="Featured Product">
+</a>
+</div>
+
+<div class="content">
+
+<h1>Featured Product</h1>
+
+<p>
+Write a short description of your featured product here.
+Explain its benefits and why customers should buy it.
+</p>
+
+<a class="visit-btn"
+href="https://shop.siomaiking.ph/your-shoplink"
+target="_blank">
+VISIT SITE
+</a>
+
+<h2 class="section-title">Other Products</h2>
+
+<div class="products">
+
+<a class="product" href="product2.html">
+<img src="images/product2.jpg">
+<p>Product 2 Description</p>
+</a>
+
+<a class="product" href="product3.html">
+<img src="images/product3.jpg">
+<p>Product 3 Description</p>
+</a>
+
+<a class="product" href="product4.html">
+<img src="images/product4.jpg">
+<p>Product 4 Description</p>
+</a>
+
+<a class="product" href="product5.html">
+<img src="images/product5.jpg">
+<p>Product 5 Description</p>
+</a>
+
+</div>
+
+</div>
+
+<footer>
+© 2026
+</footer>
+
+</div>
+
+</body>
+</html>
