@@ -179,7 +179,19 @@ Please select your country.
 
 const params=new URLSearchParams(location.search);
 
-const featuredLink=params.get("link");
+const product = params.get("product");
+
+document.querySelectorAll(".country").forEach(card=>{
+
+    card.onclick=()=>{
+
+        const country = card.dataset.country;
+
+        window.location.href = products[product][country];
+
+    };
+
+});
 
 // Search
 
