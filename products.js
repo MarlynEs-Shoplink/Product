@@ -2,6 +2,8 @@ const products = {
 
     product1: {
 
+        QA: "https://shop.jcpremiere.com/products/e1f2d5714d6048d6a93ea28f387195bf/11111510551"
+        
         PH: "https://shop.jcpremiere.com/products/e1f2d5714d6048d6a93ea28f387195bf/11111510551",
 
         SG: "https://shop.jcpremiere.com/products/e1f2d5714d6048d6a93ea28f387195bf/11111510551",
