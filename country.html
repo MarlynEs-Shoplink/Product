@@ -186,7 +186,7 @@ document.querySelectorAll(".country").forEach(card=>{
     card.onclick=()=>{
 
         const country = card.dataset.country;
-
+        alert("You selected: " + country);
         window.location.href = products[product][country];
 
     };
