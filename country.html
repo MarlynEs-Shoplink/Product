@@ -217,7 +217,7 @@ card.style.display=text.includes(keyword)
 document.querySelectorAll(".country").forEach(card=>{
 
 card.onclick=()=>{
-
+alert("You selected: " + country);
 if(!featuredLink){
 
 alert("Product link not found.");
@@ -227,7 +227,7 @@ return;
 }
 
 const country=card.dataset.country;
-alert("You selected: " + country);
+
 window.location.href=
 featuredLink+
 "&country="+country;
